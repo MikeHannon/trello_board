@@ -1,10 +1,11 @@
 import React, { PropTypes } from 'react';
 import './card.css';
 
-const Card = ({status}) => {
+const Card = ({status, title, description}) => {
   return (
     <div className={`card ${status}`}>
-      {status}      
+      <h1>{title}</h1>
+      <p>{description}</p>      
     </div>
   )
 }
