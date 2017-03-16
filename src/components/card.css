@@ -1,0 +1,19 @@
+.card {
+    min-height: 50px;
+    max-height:150px;
+    border: 1px solid #e5e5df;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.25);
+    margin: 5px;
+}
+
+.card.complete {
+    border-left: 20px solid #B8B7CD;
+}
+
+.card.current {
+    border-left: 20px solid #6CD997;
+}
+
+.card.backlog {
+    border-left: 20px solid #F4DE95;
+}

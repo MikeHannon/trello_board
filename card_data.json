@@ -27,7 +27,7 @@
             "id": 3,
             "title": "Build initial components",
             "description": "Build static React site without any managed state",
-            "status": "current sprint",
+            "status": "current",
             "subtasks": [
                 {
                     "description" : "App",

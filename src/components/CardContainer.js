@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import Card from './Card';
 import './card-container.css';
+
 const CardContainer = ({title, cards}) => {
   const cardList = cards.map((cardObj) => <Card key={cardObj.id} {...cardObj} />)
   return (

@@ -1,9 +1,16 @@
 import React, { PropTypes } from 'react';
+import './card.css';
 
-const Card = (props) => {
-  return <p>{JSON.stringify(props)}</p>
+const Card = ({status}) => {
+  return (
+    <div className={`card ${status}`}>
+      {status}      
+    </div>
+  )
 }
 
-Card.propTypes = {}
+Card.propTypes = {
+  status: PropTypes.string.isRequired
+}
 
 export default Card;

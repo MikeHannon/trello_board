@@ -1,7 +1,10 @@
 .card-container {
     flex-grow: 1;
+    margin: 10px;
 }
 
 .card-container header {
+    height: 25px;
     text-align: center;
+    margin-bottom: 20px;
 }
