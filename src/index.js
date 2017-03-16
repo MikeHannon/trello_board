@@ -22,13 +22,14 @@ class App extends Component {
     const cardContainers = Array.from(this.state.statuses).map( status => <CardContainer title={status} key={status} /> )
 
     return (
-      <div>
+      <div className="app-container">
         {cardContainers}
       </div>
     )
   }
 }
 
+import './card-container.css';
 const CardContainer = ({title}) => {
   return (
     <div className="card-container">

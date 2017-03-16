@@ -1,0 +1,7 @@
+.card-container {
+    flex-grow: 1;
+}
+
+.card-container header {
+    text-align: center;
+}
