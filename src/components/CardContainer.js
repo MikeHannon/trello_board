@@ -1,12 +1,12 @@
 
-import React, { Component, PropTypes } from 'react';
-import Card from './Card.js'
-import "./card-container.css";
+import React, { PropTypes } from 'react';
+import Card from './Card';
+import './card-container.css';
 
-const CardContainer = ({title,cards}) => {
+const CardContainer = ({title, cards}) => {
   const cardList = cards.map((cardObj) => <Card key={cardObj.id} {...cardObj} />)
   return (
-    <div className={`card-container ${title}`}>
+    <div className="card-container">
       <header>
         <h1>{title}</h1>
       </header>
@@ -17,4 +17,11 @@ const CardContainer = ({title,cards}) => {
   )
 }
 
-export default CardContainer
+
+CardContainer.propTypes = {
+  title: PropTypes.string.isRequired,
+  cards: PropTypes.array.isRequired,
+}
+
+export default CardContainer;
+

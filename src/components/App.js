@@ -1,8 +1,7 @@
-
 import React, { Component, PropTypes } from 'react';
-import ReactDOM from 'react-dom';
-import CardContainer from './CardContainer.js'
-import './App.css';
+import CardContainer from './CardContainer';
+import './app.css';
+
 class App extends Component {
   static propTypes = {
     cards: PropTypes.array.isRequired
@@ -18,20 +17,18 @@ class App extends Component {
 
     this.state = { statuses }
   }
-  filterCards=(status)=>{
-    return this.props.cards.filter((cards)=>{
-      return cards.status === status
-    })
-  }
-  
-  render() {
-    const cardContainers = Array.from(this.state.statuses).map( 
-      status => <CardContainer 
-      title={status} 
-      key={status}
-      cards={this.filterCards(status)} 
-      />) 
 
+  filterCards(statusFilter){
+    return this.props.cards.filter((card) => {
+      return card.status === statusFilter;
+    });
+  }
+  render() {
+    const cardContainers = Array
+                          .from(this.state.statuses)
+                          .map( status => { 
+                            return <CardContainer title={status} key={status} cards={this.filterCards(status)} /> 
+                          });
     return (
       <div className="app-container">
         {cardContainers}
@@ -40,5 +37,4 @@ class App extends Component {
   }
 }
 export default App
-
 
