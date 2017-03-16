@@ -1,0 +1,94 @@
+{
+    "cards" : [
+        {
+            "title": "Build this app",
+            "description": "Use drag n' drop behavior and CSS modules",
+            "status": "complete",
+            "subtasks": [
+                {
+                    "description" : "Build mockup",
+                    "completed": true
+                },
+                {
+                    "description" : "Annotate components",
+                    "completed": true
+                }
+            ]
+        },
+        {
+            "title": "Host on Github",
+            "description": "Push to Github repo",
+            "status": "complete",
+            "subtasks": []
+        },
+        {
+            "title": "Build initial components",
+            "description": "Build static React site without any managed state",
+            "status": "current sprint",
+            "subtasks": [
+                {
+                    "description" : "App",
+                    "completed": false
+                },
+                {
+                    "description" : "CardContainer",
+                    "completed": false
+                },
+                {
+                    "description" : "Card",
+                    "completed": false
+                },
+                {
+                    "description" : "CardHeader",
+                    "completed": false
+                },
+                {
+                    "description" : "CardChecklist",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Add managed state to checklist",
+            "description": "Allow create and delete functionality for subtask checklists",
+            "status": "backlog",
+            "subtasks": [
+                {
+                    "description" : "create a subtask",
+                    "completed": false
+                },
+                {
+                    "description" : "delete a subtask",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Enable drag n' drop functionality",
+            "description": "Allow reordering of cards and move cards to different columns",
+            "status": "backlog",
+            "subtasks": [
+                {
+                    "description" : "reorder within container",
+                    "completed": false
+                },
+                {
+                    "description" : "move among containers",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Add server",
+            "description": "Move data to cache on server and fetch w/ HTTP requests",
+            "status": "backlog",
+            "subtasks": []
+        },
+        {
+            "title": "Add Redux",
+            "description": "Refactor to use Redux as single data store",
+            "status": "backlog",
+            "subtasks": []
+        }
+    ]
+}
