@@ -30,3 +30,11 @@
     text-align: left;
     margin-left: 5px;
 }
+
+.card-container .card.empty {
+    background: #dddddd;
+}
+
+.card-container .card.empty header {
+    text-align: center;
+}
