@@ -1,6 +1,7 @@
 {
     "cards" : [
         {
+            "id": 1,
             "title": "Build this app",
             "description": "Use drag n' drop behavior and CSS modules",
             "status": "complete",
@@ -16,12 +17,14 @@
             ]
         },
         {
+            "id": 2,
             "title": "Host on Github",
             "description": "Push to Github repo",
             "status": "complete",
             "subtasks": []
         },
         {
+            "id": 3,
             "title": "Build initial components",
             "description": "Build static React site without any managed state",
             "status": "current sprint",
@@ -49,6 +52,7 @@
             ]
         },
         {
+            "id": 4,
             "title": "Add managed state to checklist",
             "description": "Allow create and delete functionality for subtask checklists",
             "status": "backlog",
@@ -64,6 +68,7 @@
             ]
         },
         {
+            "id": 5,
             "title": "Enable drag n' drop functionality",
             "description": "Allow reordering of cards and move cards to different columns",
             "status": "backlog",
@@ -79,12 +84,14 @@
             ]
         },
         {
+            "id": 6,
             "title": "Add server",
             "description": "Move data to cache on server and fetch w/ HTTP requests",
             "status": "backlog",
             "subtasks": []
         },
         {
+            "id": 7,
             "title": "Add Redux",
             "description": "Refactor to use Redux as single data store",
             "status": "backlog",
