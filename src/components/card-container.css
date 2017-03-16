@@ -1,0 +1,18 @@
+.card-container {
+    flex-grow: 1;
+}
+.card-container header h1{
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   border-bottom: 1px solid black;
+}
+.backlog{
+    background-color:#FF9999;
+}
+.complete{
+    background-color: #99FF99;
+}
+.current{
+    background-color: #9999FF;
+}
