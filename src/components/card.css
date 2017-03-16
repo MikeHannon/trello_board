@@ -17,3 +17,16 @@
 .card.backlog {
     border-left: 20px solid #F4DE95;
 }
+
+.card header h1 {
+    font-size: 100%;
+}
+
+.card header p {
+    font-size: 70%;
+}
+
+.card-container .card header {
+    text-align: left;
+    margin-left: 5px;
+}
