@@ -7,7 +7,7 @@ class App extends Component {
   static propTypes = {
     cards: PropTypes.array.isRequired
   }
-  
+
   constructor(props){
     super(props);
     
@@ -29,11 +29,16 @@ class App extends Component {
   }
 }
 
-
-let statusTypes = new Set()
-
 const CardContainer = ({title}) => {
-  return <h1>{title}</h1>
+  return (
+    <div className="card-container">
+      <header>
+        <h1>{title}</h1>
+      </header>
+      <div className="cards">
+      </div>
+    </div>
+  )
 }
 const Card = (props) => {
   return <h1>Card</h1>
