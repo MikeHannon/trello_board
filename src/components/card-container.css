@@ -1,6 +1,7 @@
 .card-container {
-    flex-grow: 1;
+    width: 30%;
     margin: 10px;
+    min-height: 200px;
 }
 
 .card-container header {
