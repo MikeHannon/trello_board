@@ -19,7 +19,6 @@ const CardContainer = ({title, cards, updateCardStatus }) => {
   )
 }
 
-
 CardContainer.propTypes = {
   title: PropTypes.string.isRequired,
   cards: PropTypes.array.isRequired,
